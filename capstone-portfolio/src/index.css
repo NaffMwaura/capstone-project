@@ -1,0 +1,5 @@
+@import "tailwindcss";
+/* Add this class definition (e.g., in index.css if using standard CSS/Tailwind config) */
+.section-title {
+    @apply text-3xl font-extrabold text-yellow-400 text-center mb-10 border-b-2 border-amber-500/50 pb-2 md:text-4xl;
+}
