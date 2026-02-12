@@ -7,9 +7,17 @@ const InnovationPresentation: React.FC = () => {
     const description = 
         "A summary presentation synthesizing the key technical aspects of the innovation/invention, including architecture, key features, and implementation methodology (supporting the video content).";
 
+    // Use the /embed endpoint for a live preview
     const PreviewComponent = (
-        <div className="p-4 flex items-center justify-center text-lg text-amber-300">
-            <p>Presentation slides preview for the Innovation Project.</p>
+        <div className="w-full h-full min-h-75 overflow-hidden rounded-lg bg-slate-900 border border-slate-700">
+            <iframe 
+                src="https://docs.google.com/presentation/d/13-BNaWpxGLOzNh25Um4LMcVSOj_AwG4a/embed?start=false&loop=false&delayms=3000" 
+                width="100%" 
+                height="100%" 
+                allowFullScreen={true} 
+                title="Innovation Presentation Slides"
+                className="border-0"
+            ></iframe>
         </div>
     );
 
@@ -23,8 +31,10 @@ const InnovationPresentation: React.FC = () => {
                 title="Innovation Summary and Technical Deep Dive"
                 description={description}
                 marks={10}
-                documentUrl="https://drive.google.com/link-to-full-innovation-presentation" 
-                downloadUrl="https://drive.google.com/link-to-presentation-download-pdf" 
+                // Viewer link
+                documentUrl="https://docs.google.com/presentation/d/13-BNaWpxGLOzNh25Um4LMcVSOj_AwG4a/view" 
+                // Direct Download link (PowerPoint format)
+                downloadUrl="https://docs.google.com/presentation/d/13-BNaWpxGLOzNh25Um4LMcVSOj_AwG4a/export/pptx" 
                 preview={PreviewComponent}
             />
         </section>

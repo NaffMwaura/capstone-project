@@ -27,7 +27,7 @@ const AfricanCultureVideo: React.FC = () => {
             </h2>
             
             <PortfolioItemCard
-                title="Cultural Study: [Your Topic] and its Digital Relevance"
+                title="Cultural Study-Visual Essay: The Digital Oracle and its Digital Relevance"
                 description={description}
                 marks={10}
                 documentUrl="https://youtube.com/link-to-culture-video" 
