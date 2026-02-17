@@ -17,6 +17,7 @@ const videoUrl = "https://drive.google.com/file/d/1wfzCMcIAVGqs1iqQM85aVVthraEC0
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center h-full w-full bg-slate-800 rounded-lg border border-slate-700 group hover:border-amber-400 transition-colors duration-300 min-h-50 cursor-pointer"
         >
+            
             <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 fill="none" 

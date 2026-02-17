@@ -23,6 +23,7 @@ const AutobiographySection: React.FC = () => {
             <h2 className="section-title">
                 <span className="text-amber-400">2.</span> Autobiographical Essay <span className="text-amber-400">(20 Marks)</span>
             </h2>
+          
             
             <PortfolioItemCard
                 title="Personal and Academic Journey Essay"

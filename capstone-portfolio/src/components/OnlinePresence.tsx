@@ -10,6 +10,8 @@ interface Platform {
     description: string;
 }
 
+
+
 const platforms: Platform[] = [
     { name: "LinkedIn Profile", url: "https://www.linkedin.com/in/naff-mwaura-2bb415257/", icon: <FaLinkedin className="text-4xl text-blue-400" />, description: "Professional networking and career history." },
     { name: "GitHub Repository", url: "https://github.com/NaffMwaura/", icon: <FaGithub className="text-4xl text-gray-400" />, description: "Source code, projects, and version control activities." },
